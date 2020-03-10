@@ -8,3 +8,5 @@ Clases de complejidad algorítmica:
 * _O(n log n)_ - Algunas funciones de ordenamiento como merge sort o quick sort
 * _O(n**2)_ - Algoritmos que recorran un arreglo y tengan que comparar un elemento con el resto para cumplir un objetivo. La mayoría de los problemas resultos con “fureza bruta” tienen una complejidad cuadrática o con algún exponente.
 * _O(2**n)_ - Fibonacci recursivo
+
+![Big_O_CHART](./Big_o_chart.jpg)
