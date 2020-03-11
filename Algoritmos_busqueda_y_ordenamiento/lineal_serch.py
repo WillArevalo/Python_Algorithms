@@ -7,8 +7,11 @@ import random
 
 def lineal_search(lista, objetivo):
     """Lineal Search."""
+    i = 0
     match = False
     for el in lista:
+        i += 1
+        print(f'Iteracion {i}')
         if el == objetivo:
             match = True
             break
