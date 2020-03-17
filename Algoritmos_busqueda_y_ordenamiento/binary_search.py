@@ -1,6 +1,6 @@
 # _*_ coding: utf-8 _*_
 """
-This module is for make a lineal search.
+This module is for make a binary search.
  https://wiki.python.org/moin/TimeComplexity
 """
 import random
