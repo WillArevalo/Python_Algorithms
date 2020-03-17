@@ -16,7 +16,7 @@ def bubble_sort(lista):
 
 if __name__ == "__main__":
     len_of_list = int(input("What length of list want? "))
-    lista = [random.randint(0,100) for i in range(len_of_list)]
+    lista = [random.randint(0,10000) for i in range(len_of_list)]
     print(*lista, sep=' ')
     tic = time.time()
     sort_list, iter = bubble_sort(lista)
